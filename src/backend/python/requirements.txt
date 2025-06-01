@@ -1,0 +1,9 @@
+Flask
+psycopg2
+postgresql
+adafruit_dht
+spidev
+flask-restx
+numpy==1.23.1
+pandas==1.4.3
+Pillow==9.2.0

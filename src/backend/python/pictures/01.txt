@@ -1,0 +1,3 @@
+## Description
+
+All pictures are stored inside this folder. Each of them have a timestamp as name for identification.
