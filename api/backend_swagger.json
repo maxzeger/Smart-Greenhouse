@@ -1,0 +1,72 @@
+swagger: '2.0'
+basePath: /
+paths:
+  /getActions:
+    post:
+      responses:
+        '200':
+          description: Success
+      operationId: post_actions
+      tags:
+        - default
+    get:
+      responses:
+        '200':
+          description: Success
+      operationId: get_actions
+      tags:
+        - default
+  /getImage:
+    get:
+      responses:
+        '200':
+          description: Success
+      operationId: get_images
+      tags:
+        - default
+  /getMeasurements:
+    get:
+      responses:
+        '200':
+          description: Success
+      operationId: get_measurements
+      tags:
+        - default
+  /getTSH:
+    get:
+      responses:
+        '200':
+          description: Success
+      operationId: get_tsh
+      tags:
+        - default
+  /setEnv:
+    post:
+      responses:
+        '200':
+          description: Success
+      operationId: post_env
+      parameters:
+        - name: Water Duration
+          in: query
+          type: integer
+        - name: Interval time
+          in: query
+          type: integer
+      tags:
+        - default
+info:
+  title: smart greenhouse API doc
+  version: '1.0'
+produces:
+  - application/json
+consumes:
+  - application/json
+tags:
+  - name: default
+    description: Default namespace
+responses:
+  ParseError:
+    description: When a mask can't be parsed
+  MaskError:
+    description: When any error occurs on mask

@@ -1,0 +1,45 @@
+----------------------------------------------------------------------------------------------------------------
+Files                                                                           |Author, Co-Author/s                
+----------------------------------------------------------------------------------------------------------------
+src\backend\python\AirTempHumSensor.py                                          |Schmidt
+src\backend\python\CameraSensor.py                                              |Schmidt
+src\backend\python\DatabaseAccessor.py                                          |Zeger, Schmidt
+src\backend\python\DataSet.py                                                   |Schmidt, Zeger
+src\backend\python\MoistureSensor.py                                            |Schmidt
+src\backend\python\PumpActor.py                                                 |Schmidt
+src\backend\python\requirements.txt                                             |Schmidt
+src\backend\python\SensorManager.py                                             |Schmidt
+src\backend\python\RestInterface.py                                             |Schmidt
+src\backend\python\.gitignore                                                   |Schmidt
+
+src\Mobile Application\smart_greenhouse\lib\blocs\actions-bloc.dart             |Röcker, Zeger
+src\Mobile Application\smart_greenhouse\lib\blocs\actions-event.dart            |Röcker, Zeger
+src\Mobile Application\smart_greenhouse\lib\blocs\actions-state.dart            |Röcker, Zeger
+src\Mobile Application\smart_greenhouse\lib\blocs\measurements-bloc.dart        |Röcker, Schmidt
+src\Mobile Application\smart_greenhouse\lib\blocs\measurements-event.dart       |Röcker, Schmidt
+src\Mobile Application\smart_greenhouse\lib\blocs\measurements-state.dart       |Röcker, Schmidt
+src\Mobile Application\smart_greenhouse\lib\blocs\tsh-bloc.dart                 |Röcker, Söll
+src\Mobile Application\smart_greenhouse\lib\blocs\tsh-event.dart                |Röcker, Söll
+src\Mobile Application\smart_greenhouse\lib\blocs\tsh-state.dart                |Röcker, Söll
+src\Mobile Application\smart_greenhouse\lib\models\actions_model.dart           |Röcker, Zeger
+src\Mobile Application\smart_greenhouse\lib\models\measurements_model.dart      |Röcker, Schmidt
+src\Mobile Application\smart_greenhouse\lib\models\settings_model.dart          |Röcker
+src\Mobile Application\smart_greenhouse\lib\models\tsh_model.dart               |Röcker
+src\Mobile Application\smart_greenhouse\lib\resources\api-provider.dart         |Röcker
+src\Mobile Application\smart_greenhouse\lib\resources\api-repository.dart       |Röcker
+src\Mobile Application\smart_greenhouse\lib\main_screen.dart                    |Röcker, Söll(Zeilen: 4, 21 - 26, 31, 32, 109-117, 552-579)
+src\Mobile Application\smart_greenhouse\lib\main.dart                           |Röcker, Söll(Zeile: 2, 5, 8-9, 19, 20)
+src\Mobile Application\smart_greenhouse\lib\settings.dart                       |Röcker, Söll, Schmidt
+
+doc\Documentation                                                               |Schmidt, Zeger
+Electronics                                                                     |Schmidt
+Modell                                                                          |Schmidt
+doc\AuthorsReport.txt                                                           |Schmidt
+doc\Code_Report.txt                                                             |Schmidt
+doc\UserGuide.txt                                                               |Schmidt, Röcker
+poster\MEProjectPosterA0.pptx                                                   |Schmidt
+screenshots                                                                     |Schmidt, Röcker
+videos                                                                          |Schmidt
+
+Zusatz:
+Yannick Söll hat an folgendem Commit zuammen mit Robin Röcker gearbeitet: c30d4eb, Added Layout, Added two pages 2022-11-16

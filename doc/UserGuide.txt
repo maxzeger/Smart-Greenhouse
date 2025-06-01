@@ -1,0 +1,16 @@
+Frontend:
+    1. Installiere Flutter https://docs.flutter.dev/get-started/install
+    2. Installiere XCode (Apple Developer Account benötigt)
+    3. Installiere AndroidStudio
+    4. Lade das Projekt aus dem Git repository 
+    5. Öffne den Ordner Mobile Application in AndroidStudio
+    6. Führe folgenden Befehl aus: flutter run -no-sound-null-safety
+    7. Wähle das Gerät aus auf dem Sie die App starten wollen
+    8. Die App kann nun bedient werden
+
+Backend:
+(info: Das Backend kann nur auf einem Raspberry Pi ausgeführt werden, da nur dieser die benötigten internen Bibliotheken bereitstellt, die benötigt werden)
+    1. Laden Sie das Projekt aus dem Bitbucket repository
+    2. Öffnen Sie den backend Ordner in Visual Studio Code
+    3. Installieren Sie die requirements.txt durch folgenden Befehl im Terminal: pip install -r requirements.txt
+    4. Führen Sie das Programm über den Play-Button oben rechts aus
